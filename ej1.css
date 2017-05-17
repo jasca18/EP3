@@ -1,0 +1,43 @@
+html, body {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+.box {
+	width: 25%;
+	height: auto;
+	padding: 5px;
+	float: left;
+	text-align: center;
+}
+
+img {
+	max-width: 75%;
+}
+
+.fix {
+	width: 100%;
+	height: 75px;
+	position: fixed;
+	background-color: black;
+	color: white;
+	top: 0px;
+			
+		}
+ul {
+	text-align: center;
+}
+li {
+	display: inline;
+	list-style-type: none;
+	line-height: 50px;
+	padding-right: 10px;
+}
+
+.top {
+	top: 85px;
+}
